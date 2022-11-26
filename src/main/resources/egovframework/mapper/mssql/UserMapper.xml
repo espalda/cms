@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="userMapper">
+
+	<insert id="insertUser" parameterType="userVO">
+		INSERT INTO TN_USER (ESNTL_USER_ID, USER_ID, USER_TY, USER_NM, USER_EMAIL, USER_SEXDSTN, PASSWORD, ZIP, ADRES,
+	                     ADRES_DETAIL, USER_MBTLNUM, USER_STTUS, GROUP_ID, SBSCRB_DE, LOCK_AT, LOCK_CNT, LOCK_DE)
+		VALUES (#{esntlUserId}, #{userId}, #{userTy}, #{userNm}, #{userEmail}, #{userSexdstn}, #{password}, #{zip}, #{adres},
+				#{adresDetail}, #{userMbtlnum}, #{userSttus}, #{groupId}, #{sbscrbDe}, #{lockAt}, #{lockCnt}, #{lockDe})
+	</insert>
+</mapper>
