@@ -9,6 +9,7 @@
 		<put-attribute name="loadFile"  value="/WEB-INF/tiles/loadFile.jsp" />
 		<put-attribute name="header" 	value="/WEB-INF/tiles/headerTemplate.jsp" />
 		<put-attribute name="body" 		value="" />
+		<put-attribute name="title" 	value="SDLCMS" />
 		<put-attribute name="leftSide" 	value="/WEB-INF/tiles/sidebarTemplate.jsp" />
 		<put-attribute name="footer" 	value="/WEB-INF/tiles/footerTemplate.jsp" />
 	</definition>

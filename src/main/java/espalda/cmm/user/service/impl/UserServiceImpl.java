@@ -26,7 +26,7 @@ public class UserServiceImpl extends EgovAbstractServiceImpl implements UserServ
 	public void insertUser(UserVO userVO) throws Exception {
 		String userId = idgenService.getNextStringId();
 		logger.info(userId);
-		int resCnt = userDAO.insertUser(userVO);
+		// int resCnt = userDAO.insertUser(userVO);
 	}
 
 }

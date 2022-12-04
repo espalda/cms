@@ -13,10 +13,10 @@
 				<div class="sidebar-header">
 					<div class="d-flex justify-content-between">
 						<div class="logo">
-							<a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+							<a href="index.html"><img src="/resources/img/logo/logo.png" alt="Logo" srcset=""></a>
 						</div>
 						<div class="toggler">
-							<a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+							<a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i>SDL CMS</a>
 						</div>
 					</div>
 				</div>
@@ -33,9 +33,9 @@
 		</div>
 	</div>
 	
-	<script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/main.js"></script>
+	<%--<script src="/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>--%>
+	<%--<script src="/resources/js/bootstrap.bundle.min.js"></script>--%>
+	<script src="/resources/js/main.js"></script>
 
 </body>
 </html>
