@@ -8,12 +8,10 @@ import espalda.cmm.user.model.UserVO;
 @Repository("userDAO")
 public class UserDAO extends EgovAbstractMapper {
 
-	/*
-	 * public int insertUser(UserVO userVO) throws Exception {
-	 * 
-	 * int resCnt = this.insert("userMapper.insertUser", userVO); return resCnt;
-	 * 
-	 * return 1; }
-	 */
+	public int insertUser(UserVO userVO) throws Exception {
+		int resCnt = this.insert("userMapper.insertUser", userVO);
+		return resCnt;
+	}
+
 
 }

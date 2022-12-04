@@ -21,8 +21,9 @@ public class UserController {
 	
 	
 	@RequestMapping(value="/sign.do")
-	public String userSignUpView (Model model) {
+	public String userSignUpView (Model model, UserVO userVO) throws Exception {
 		logger.info("회원가입_컨트롤러");
+		this.userService.insertUser(userVO);
 		return "user/sign";
 	}
 	

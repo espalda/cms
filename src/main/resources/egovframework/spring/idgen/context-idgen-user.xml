@@ -7,13 +7,13 @@
         <property name="dataSource" ref="dataSource" />
         <property name="strategy"   ref="userIdStrategy" />
         <property name="blockSize"  value="10"/>
-        <property name="table"      value="tc_idgn"/>
+        <property name="table"      value="tc_idgen"/>
         <property name="tableName"  value="tn_user"/>
     </bean>
     <bean name="userIdStrategy" class="egovframework.rte.fdl.idgnr.impl.strategy.EgovIdGnrStrategyImpl">
-        <property name="prefix"   value="USER" />
+        <property name="prefix"   value="USER_" />
         <property name="cipers"   value="15" /> <!-- prefix 를 제외한 아이디의 길이 지정 -->
         <property name="fillChar" value="0" />
-    </bean> 
-    
+    </bean>
+
 </beans>
